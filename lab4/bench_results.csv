@@ -1,0 +1,7 @@
+label,model,concurrency,requests,errors,ttft_p50_s,ttft_p95_s,tokens_per_s_per_user_p50,throughput_tokens_per_s,reasoning
+gemma_Q8,gemma3:4b-it-q8_0,1,16,0,0.071,0.077,70.9,69.6,false
+gemma_Q8,gemma3:4b-it-q8_0,2,16,0,2.926,2.94,70.8,69.7,false
+gemma_Q8,gemma3:4b-it-q8_0,4,16,0,8.558,8.72,70.6,69.4,false
+gemma_Q4,gemma3:4b-it-q4_K_M,1,16,0,0.064,0.07,102.9,100.1,false
+gemma_Q4,gemma3:4b-it-q4_K_M,2,16,0,2.035,2.06,103.4,100.7,false
+gemma_Q4,gemma3:4b-it-q4_K_M,4,16,0,5.778,6.106,101.9,99.3,false

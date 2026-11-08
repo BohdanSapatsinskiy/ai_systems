@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG3 Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--
+      python -m http.server 8000 --bind 127.0.0.1      (у цій теці)
+      http://localhost:8000/index.html
+-->
+    <main class="app">
+        <header class="header">
+            <div>
+                <h1>BG3 Companion</h1>
+                <p>Твій помічник у Baldur's Gate 3</p>
+            </div>
+            <span class="status">Локальна модель</span>
+        </header>
+
+        <section id="chat" class="chat">
+            <div class="message assistant">
+                <div class="message-author">BG3 Companion</div>
+                <div class="message-content">
+                    Вітаю, мандрівнику! Я допоможу тобі з вибором класу,
+                    створенням персонажа, спорядженням та ігровими механіками
+                    Baldur's Gate 3. Про що поговоримо?
+                </div>
+            </div>
+        </section>
+
+        <form id="chat-form" class="input-area">
+            <textarea
+                id="user-input"
+                placeholder="Напиши своє запитання..."
+                rows="1"
+                required
+            ></textarea>
+
+            <button id="send-button" type="submit">
+                Надіслати
+            </button>
+        </form>
+
+        <footer>
+            Працює локально на Gemma 3 4B
+        </footer>
+    </main>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="knowledge.js"></script>
+</body>
+</html>
