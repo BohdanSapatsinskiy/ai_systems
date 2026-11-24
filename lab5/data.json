@@ -1,0 +1,1312 @@
+
+[
+  {
+    "id": "class-barbarian",
+    "category": "classes",
+    "title": "Варвар (Barbarian)",
+    "content": "Варвар — клас, орієнтований на ближній бій, фізичну силу та витривалість. Основна характеристика — Сила (Strength). Додаткова характеристика — Витривалість (Constitution). Варвари використовують лють (Rage), яка посилює їхні бойові можливості та витривалість.",
+    "tags": ["варвар", "barbarian", "сила", "витривалість", "лють", "rage"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Barbarian",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-bard",
+    "category": "classes",
+    "title": "Бард (Bard)",
+    "content": "Бард — клас, який використовує музику, магію та харизму. Основна характеристика — Харизма (Charisma). Додаткова характеристика — Спритність (Dexterity). Барди можуть використовувати заклинання, надихати союзників і володіють широким набором навичок.",
+    "tags": ["бард", "bard", "харизма", "спритність", "натхнення"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Bard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-cleric",
+    "category": "classes",
+    "title": "Жрець (Cleric)",
+    "content": "Жрець — клас, який отримує магічні здібності від божества. Основна характеристика — Мудрість (Wisdom). Додаткова характеристика — Витривалість (Constitution). Жрець може лікувати союзників, підтримувати групу та використовувати бойові й атакувальні заклинання.",
+    "tags": ["жрець", "cleric", "мудрість", "витривалість", "лікування", "божество"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Cleric",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-druid",
+    "category": "classes",
+    "title": "Друїд (Druid)",
+    "content": "Друїд — клас, який використовує сили природи та магію. Основна характеристика — Мудрість (Wisdom). Додаткова характеристика — Витривалість (Constitution). Друїди можуть використовувати природні заклинання, лікування та здатність Перевтілення (Wild Shape).",
+    "tags": ["друїд", "druid", "мудрість", "витривалість", "природа", "wild shape"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Druid",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-fighter",
+    "category": "classes",
+    "title": "Воїн (Fighter)",
+    "content": "Воїн — універсальний бойовий клас, який спеціалізується на використанні зброї та обладунків. Основна характеристика зазвичай Сила (Strength) для ближнього бою або Спритність (Dexterity) для зброї, що використовує спритність. Додаткова характеристика — Витривалість (Constitution).",
+    "tags": ["воїн", "fighter", "сила", "спритність", "витривалість", "зброя"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Fighter",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-monk",
+    "category": "classes",
+    "title": "Монах (Monk)",
+    "content": "Монах — клас, який використовує бойові мистецтва, швидкість і внутрішню енергію. Основна характеристика — Спритність (Dexterity). Додаткова характеристика — Мудрість (Wisdom). Монахи можуть ефективно битися без зброї та використовувати особливі здібності, що витрачають очки ки.",
+    "tags": ["монах", "monk", "спритність", "мудрість", "бойові мистецтва", "ки"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Monk",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-paladin",
+    "category": "classes",
+    "title": "Паладин (Paladin)",
+    "content": "Паладин — бойовий клас, який поєднує володіння зброєю, захист і божественну магію. Основна характеристика — Сила (Strength). Додаткова характеристика — Харизма (Charisma). Паладини використовують клятви, можуть лікувати союзників і завдавати додаткової шкоди за допомогою Божественної карності (Divine Smite).",
+    "tags": ["паладин", "paladin", "сила", "харизма", "клятва", "divine smite"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Paladin",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-ranger",
+    "category": "classes",
+    "title": "Слідопит (Ranger)",
+    "content": "Слідопит — клас, орієнтований на дослідження світу, виживання та бойові навички. Основна характеристика — Спритність (Dexterity). Додаткова характеристика — Мудрість (Wisdom). Слідопити ефективно використовують луки, арбалети та зброю ближнього бою, а також мають доступ до природної магії.",
+    "tags": ["слідопит", "ranger", "спритність", "мудрість", "лук", "виживання"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Ranger",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-rogue",
+    "category": "classes",
+    "title": "Плут (Rogue)",
+    "content": "Плут — клас, орієнтований на спритність, прихованість і точні атаки. Основна характеристика — Спритність (Dexterity). Додаткова характеристика — Витривалість (Constitution). Плути використовують приховані атаки (Sneak Attack), володіють великою кількістю навичок і можуть ефективно діяти непомітно.",
+    "tags": ["плут", "rogue", "спритність", "витривалість", "прихованість", "sneak attack"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Rogue",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-sorcerer",
+    "category": "classes",
+    "title": "Чародій (Sorcerer)",
+    "content": "Чародій — магічний клас, сила якого походить від вродженого магічного джерела. Основна характеристика — Харизма (Charisma). Додаткова характеристика — Витривалість (Constitution). Чародії використовують очки чарівництва та Метамагію (Metamagic), щоб змінювати властивості своїх заклинань.",
+    "tags": ["чародій", "sorcerer", "харизма", "витривалість", "метамагія", "metamagic"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Sorcerer",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-warlock",
+    "category": "classes",
+    "title": "Чаклун (Warlock)",
+    "content": "Чаклун — магічний клас, який отримує сили завдяки угоді з могутнім покровителем. Основна характеристика — Харизма (Charisma). Додаткова характеристика — Витривалість (Constitution). Чаклуни мають особливу систему магії, містичні заклики (Eldritch Invocations) та заклинання, які відновлюються після короткого відпочинку.",
+    "tags": ["чаклун", "warlock", "харизма", "витривалість", "покровитель", "eldritch invocations"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Warlock",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "class-wizard",
+    "category": "classes",
+    "title": "Чарівник (Wizard)",
+    "content": "Чарівник — магічний клас, який здобуває знання та опановує заклинання шляхом навчання. Основна характеристика — Інтелект (Intelligence). Додаткова характеристика — Витривалість (Constitution). Чарівники можуть вивчати заклинання зі сувоїв і мають широкий вибір магічних здібностей.",
+    "tags": ["чарівник", "wizard", "інтелект", "витривалість", "заклинання", "сувої"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Wizard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-barbarian",
+    "category": "subclasses",
+    "title": "Підкласи Варвара (Barbarian)",
+    "content": "Варвар обирає підклас на 3 рівні персонажа. Доступні підкласи: Берсерк (Berserker), Серце дикої природи (Wildheart), Дика магія (Wild Magic), Шлях велетня (Path of the Giant).",
+    "tags": ["варвар", "barbarian", "підкласи", "берсерк", "серце дикої природи", "дика магія", "шлях велетня"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Barbarian",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-bard",
+    "category": "subclasses",
+    "title": "Підкласи Барда (Bard)",
+    "content": "Бард обирає підклас на 3 рівні персонажа. Доступні підкласи: Колегія знань (College of Lore), Колегія доблесті (College of Valour), Колегія мечів (College of Swords), Колегія гламуру (College of Glamour).",
+    "tags": ["бард", "bard", "підкласи", "колегія знань", "колегія доблесті", "колегія мечів", "колегія гламуру"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Bard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-cleric",
+    "category": "subclasses",
+    "title": "Підкласи Жреця (Cleric)",
+    "content": "Жрець обирає підклас на 1 рівні персонажа під час створення персонажа. Доступні підкласи: Домен життя (Life Domain), Домен світла (Light Domain), Домен обману (Trickery Domain), Домен знань (Knowledge Domain), Домен природи (Nature Domain), Домен бурі (Tempest Domain), Домен війни (War Domain), Домен смерті (Death Domain).",
+    "tags": ["жрець", "cleric", "підкласи", "домен життя", "домен світла", "домен обману", "домен знань", "домен природи", "домен бурі", "домен війни", "домен смерті"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Cleric",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-druid",
+    "category": "subclasses",
+    "title": "Підкласи Друїда (Druid)",
+    "content": "Друїд обирає підклас на 2 рівні персонажа. Доступні підкласи: Коло землі (Circle of the Land), Коло місяця (Circle of the Moon), Коло спор (Circle of Spores), Коло зірок (Circle of Stars).",
+    "tags": ["друїд", "druid", "підкласи", "коло землі", "коло місяця", "коло спор", "коло зірок"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Druid",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-fighter",
+    "category": "subclasses",
+    "title": "Підкласи Воїна (Fighter)",
+    "content": "Воїн обирає підклас на 3 рівні персонажа. Доступні підкласи: Майстер бойових мистецтв (Battle Master), Містичний лицар (Eldritch Knight), Чемпіон (Champion), Таємничий стрілець (Arcane Archer).",
+    "tags": ["воїн", "fighter", "підкласи", "майстер бойових мистецтв", "містичний лицар", "чемпіон", "таємничий стрілець"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Fighter",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-monk",
+    "category": "subclasses",
+    "title": "Підкласи Монаха (Monk)",
+    "content": "Монах обирає підклас на 3 рівні персонажа. Доступні підкласи: Шлях відкритої долоні (Way of the Open Hand), Шлях тіні (Way of Shadow), Шлях чотирьох стихій (Way of the Four Elements), Шлях п'яного майстра (Way of the Drunken Master).",
+    "tags": ["монах", "monk", "підкласи", "відкрита долоня", "тінь", "чотири стихії", "п'яний майстер"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Monk",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-paladin",
+    "category": "subclasses",
+    "title": "Підкласи Паладина (Paladin)",
+    "content": "Паладин обирає початкову клятву на 1 рівні персонажа. Доступні клятви: Клятва древніх (Oath of the Ancients), Клятва відданості (Oath of Devotion), Клятва помсти (Oath of Vengeance), Клятва корони (Oath of the Crown). Також існує особливий підклас Клятвопреступник (Oathbreaker), який не обирається під час створення персонажа. Він стає доступним після порушення початкової клятви та взаємодії з Лицарем-Клятвопреступником у таборі.",
+    "tags": ["паладин", "paladin", "підкласи", "клятва древніх", "клятва відданості", "клятва помсти", "клятва корони", "клятвопреступник", "oathbreaker"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Paladin",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-ranger",
+    "category": "subclasses",
+    "title": "Підкласи Слідопита (Ranger)",
+    "content": "Слідопит обирає підклас на 3 рівні персонажа. Доступні підкласи: Мисливець (Hunter), Повелитель звірів (Beast Master), Похмурий мисливець (Gloom Stalker), Повелитель рою (Swarmkeeper).",
+    "tags": ["слідопит", "ranger", "підкласи", "мисливець", "повелитель звірів", "похмурий мисливець", "повелитель рою"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Ranger",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-rogue",
+    "category": "subclasses",
+    "title": "Підкласи Плута (Rogue)",
+    "content": "Плут обирає підклас на 3 рівні персонажа. Доступні підкласи: Таємничий хитрун (Arcane Trickster), Вбивця (Assassin), Злодій (Thief), Дуеліант (Swashbuckler).",
+    "tags": ["плут", "rogue", "підкласи", "таємничий хитрун", "вбивця", "злодій", "дуеліант"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Rogue",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-sorcerer",
+    "category": "subclasses",
+    "title": "Підкласи Чародія (Sorcerer)",
+    "content": "Чародій обирає підклас на 1 рівні персонажа під час створення персонажа. Доступні підкласи: Дика магія (Wild Magic), Драконяча спадщина (Draconic Bloodline), Буревійна магія (Storm Sorcery), Тіньова магія (Shadow Magic).",
+    "tags": ["чародій", "sorcerer", "підкласи", "дика магія", "драконяча спадщина", "буревійна магія", "тіньова магія"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Sorcerer",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-warlock",
+    "category": "subclasses",
+    "title": "Підкласи Чаклуна (Warlock)",
+    "content": "Чаклун обирає покровителя на 1 рівні персонажа під час створення персонажа. Доступні підкласи: Архідиявол (The Fiend), Великий Древній (The Great Old One), Архіфея (The Archfey), Гексблейд (The Hexblade).",
+    "tags": ["чаклун", "warlock", "підкласи", "архідиявол", "великий древній", "архіфея", "гексблейд"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Warlock",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "subclasses-wizard",
+    "category": "subclasses",
+    "title": "Підкласи Чарівника (Wizard)",
+    "content": "Чарівник обирає підклас на 2 рівні персонажа. Доступні підкласи: Школа відгородження (School of Abjuration), Школа виклику (School of Conjuration), Школа пророкування (School of Divination), Школа зачарування (School of Enchantment), Школа викликання (School of Evocation), Школа некромантії (School of Necromancy), Школа ілюзії (School of Illusion), Школа перетворення (School of Transmutation), Пісня клинка (Bladesinging).",
+    "tags": ["чарівник", "wizard", "підкласи", "відгородження", "виклик", "пророкування", "зачарування", "викликання", "некромантія", "ілюзія", "перетворення", "пісня клинка"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Wizard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-strength",
+    "category": "abilities",
+    "title": "Сила (Strength)",
+    "content": "Впливає на фізичну силу персонажа, ефективність атак зброєю, що використовує Силу, стрибки та перенесення ваги.",
+    "tags": ["характеристики", "сила", "strength", "фізичні атаки"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Strength",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-dexterity",
+    "category": "abilities",
+    "title": "Спритність (Dexterity)",
+    "content": "Впливає на ініціативу, клас броні, перевірки спритності та атаки зброєю, що використовує Спритність. Важлива для прихованості, акробатики та спритності рук.",
+    "tags": ["характеристики", "спритність", "dexterity", "ініціатива", "клас броні"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Dexterity",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-constitution",
+    "category": "abilities",
+    "title": "Статура (Constitution)",
+    "content": "Впливає на максимальну кількість здоров'я та перевірки концентрації заклять. Важлива для виживання персонажа.",
+    "tags": ["характеристики", "статура", "constitution", "здоров'я", "концентрація"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Constitution",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-intelligence",
+    "category": "abilities",
+    "title": "Інтелект (Intelligence)",
+    "content": "Впливає на перевірки знань і розслідування, а також є основною характеристикою для заклять Чарівника (Wizard).",
+    "tags": ["характеристики", "інтелект", "intelligence", "чарівник", "wizard"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Intelligence",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-wisdom",
+    "category": "abilities",
+    "title": "Мудрість (Wisdom)",
+    "content": "Впливає на сприйняття, проникливість і виживання, а також є основною характеристикою для заклять Жерця, Друїда та Слідопита.",
+    "tags": ["характеристики", "мудрість", "wisdom", "жрець", "друїд", "слідопит"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Wisdom",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "ability-charisma",
+    "category": "abilities",
+    "title": "Харизма (Charisma)",
+    "content": "Впливає на переконання, обман, залякування та виступи. Є основною характеристикою для заклять Барда, Паладина, Чародія та Чаклуна.",
+    "tags": ["характеристики", "харизма", "charisma", "бард", "паладин", "чародій", "чаклун"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Charisma",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-barbarian",
+    "category": "class-abilities",
+    "title": "Варвар (Barbarian)",
+    "content": "Основна характеристика — Сила. Додаткова — Статура. Сила важлива для фізичних атак, а Статура допомагає персонажу витримувати пошкодження.",
+    "tags": ["варвар", "barbarian", "сила", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Barbarian",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-bard",
+    "category": "class-abilities",
+    "title": "Бард (Bard)",
+    "content": "Основна характеристика — Харизма. Додаткова — Спритність. Харизма впливає на закляття та соціальні взаємодії, а Спритність корисна для захисту й атак.",
+    "tags": ["бард", "bard", "харизма", "спритність"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Bard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-cleric",
+    "category": "class-abilities",
+    "title": "Жрець (Cleric)",
+    "content": "Основна характеристика — Мудрість. Додаткова — Статура. Мудрість визначає ефективність заклять Жреця, а Статура допомагає підтримувати концентрацію.",
+    "tags": ["жрець", "cleric", "мудрість", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Cleric",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-druid",
+    "category": "class-abilities",
+    "title": "Друїд (Druid)",
+    "content": "Основна характеристика — Мудрість. Додаткова — Статура. Мудрість впливає на закляття Друїда, а Статура допомагає підтримувати концентрацію.",
+    "tags": ["друїд", "druid", "мудрість", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Druid",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-fighter",
+    "category": "class-abilities",
+    "title": "Воїн (Fighter)",
+    "content": "Основна характеристика залежить від стилю гри: Сила для відповідних фізичних атак або Спритність для білдів, що її використовують. Статура є корисною додатковою характеристикою.",
+    "tags": ["воїн", "fighter", "сила", "спритність", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Fighter",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-monk",
+    "category": "class-abilities",
+    "title": "Монах (Monk)",
+    "content": "Основна характеристика — Спритність. Додаткова — Мудрість. Обидві характеристики важливі для типових білдів Монаха та його захисту.",
+    "tags": ["монах", "monk", "спритність", "мудрість"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Monk",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-paladin",
+    "category": "class-abilities",
+    "title": "Паладин (Paladin)",
+    "content": "Основна характеристика для типового фізичного білду — Сила. Харизма впливає на закляття Паладина та інші класові здібності. Статура також корисна для виживання.",
+    "tags": ["паладин", "paladin", "сила", "харизма", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Paladin",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-ranger",
+    "category": "class-abilities",
+    "title": "Слідопит (Ranger)",
+    "content": "Основна характеристика для типового білду — Спритність. Мудрість впливає на закляття Слідопита. Конкретний розподіл залежить від обраного стилю гри.",
+    "tags": ["слідопит", "ranger", "спритність", "мудрість"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Ranger",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-rogue",
+    "category": "class-abilities",
+    "title": "Плут (Rogue)",
+    "content": "Основна характеристика — Спритність. Вона важлива для атак, прихованості та багатьох навичок Плута. Статура є корисною додатковою характеристикою.",
+    "tags": ["плут", "rogue", "спритність", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Rogue",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-sorcerer",
+    "category": "class-abilities",
+    "title": "Чародій (Sorcerer)",
+    "content": "Основна характеристика — Харизма. Додаткова — Статура. Харизма визначає ефективність заклять Чародія. Не плутати з Чарівником (Wizard), основною характеристикою якого є Інтелект.",
+    "tags": ["чародій", "sorcerer", "харизма", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Sorcerer",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-warlock",
+    "category": "class-abilities",
+    "title": "Чаклун (Warlock)",
+    "content": "Основна характеристика — Харизма. Додаткова — Статура. Харизма визначає ефективність заклять Чаклуна.",
+    "tags": ["чаклун", "warlock", "харизма", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Warlock",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "stats-wizard",
+    "category": "class-abilities",
+    "title": "Чарівник (Wizard)",
+    "content": "Основна характеристика — Інтелект. Додаткова — Статура. Інтелект визначає ефективність заклять Чарівника. Не плутати з Чародієм (Sorcerer), основною характеристикою якого є Харизма.",
+    "tags": ["чарівник", "wizard", "інтелект", "статура"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Wizard",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-human",
+    "category": "races",
+    "title": "Людина (Human)",
+    "content": "Ігрова раса без підрас. Особливість Human Versatility дозволяє отримати додаткову навичку. Людина також має стандартну швидкість пересування 9 м.",
+    "subraces": [],
+    "tags": ["human", "людина", "людська раса"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Human",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-elf",
+    "category": "races",
+    "title": "Ельф (Elf)",
+    "content": "Ельфи мають темний зір на 12 м та Fey Ancestry: перевагу на рятівні кидки проти зачарування й імунітет до магічного сну. Підраси: High Elf та Wood Elf. High Elf отримує один заговор зі списку заклять Чарівника на вибір. Wood Elf має збільшену швидкість пересування 10,5 м та навичку Stealth.",
+    "subraces": [
+      {
+        "name": "High Elf",
+        "name_uk": "Вищий ельф",
+        "features": ["Вибір одного заговору зі списку Чарівника"]
+      },
+      {
+        "name": "Wood Elf",
+        "name_uk": "Лісовий ельф",
+        "features": ["Швидкість пересування 10,5 м", "Навичка Stealth"]
+      }
+    ],
+    "tags": ["elf", "ельф", "high elf", "wood elf", "темний зір", "fey ancestry"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Elf",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-drow",
+    "category": "races",
+    "title": "Дроу (Drow)",
+    "content": "Дроу мають Superior Darkvision із дальністю 24 м, Fey Ancestry та расову магію. Dancing Lights доступне з першого рівня, Faerie Fire — з третього, Darkness — з п'ятого. Підраси: Lolth-Sworn Drow та Seldarine Drow. Їхні основні ігрові відмінності пов'язані з діалогами та вибором божества для Жреця.",
+    "subraces": [
+      {
+        "name": "Lolth-Sworn Drow",
+        "name_uk": "Дроу, відданий Лолт",
+        "features": ["Особливі варіанти діалогів", "Вибір Лолт як божества Жреця"]
+      },
+      {
+        "name": "Seldarine Drow",
+        "name_uk": "Селдарінський дроу",
+        "features": ["Відмінні від Lolth-Sworn варіанти діалогів"]
+      }
+    ],
+    "tags": ["drow", "дроу", "lolth-sworn", "seldarine", "superior darkvision", "расова магія"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Drow",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-half-elf",
+    "category": "races",
+    "title": "Напівельф (Half-Elf)",
+    "content": "Напівельфи мають темний зір на 12 м та Fey Ancestry: перевагу на рятівні кидки проти зачарування й імунітет до магічного сну. Існують три підраси: High Half-Elf, Wood Half-Elf та Drow Half-Elf.",
+    "subraces": [
+      {
+        "name": "High Half-Elf",
+        "name_uk": "Високий напівельф",
+        "features": ["Вибір одного заговору зі списку Чарівника"]
+      },
+      {
+        "name": "Wood Half-Elf",
+        "name_uk": "Лісовий напівельф",
+        "features": ["Швидкість пересування 10,5 м", "Навичка Stealth"]
+      },
+      {
+        "name": "Drow Half-Elf",
+        "name_uk": "Напівельф-дроу",
+        "features": ["Dancing Lights", "Faerie Fire з третього рівня", "Darkness з п'ятого рівня"]
+      }
+    ],
+    "tags": ["half-elf", "напівельф", "high half-elf", "wood half-elf", "drow half-elf"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Half-Elf",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-half-orc",
+    "category": "races",
+    "title": "Напіворк (Half-Orc)",
+    "content": "Напіворки мають темний зір на 12 м. Relentless Endurance дозволяє один раз за довгий відпочинок залишитися з 1 очком здоров'я замість втрати свідомості при зниженні здоров'я до нуля. Savage Attacks посилює критичні удари. Напіворки не мають підрас.",
+    "subraces": [],
+    "tags": ["half-orc", "напіворк", "relentless endurance", "savage attacks", "darkvision"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Half-Orc",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-halfling",
+    "category": "races",
+    "title": "Напіврослик (Halfling)",
+    "content": "Напіврослики мають Lucky: коли на кидку атаки, перевірки характеристики або рятівному кидку випадає 1, результат можна перекинути. Також мають Brave — перевагу на рятівні кидки проти переляку. Підраси: Lightfoot Halfling та Strongheart Halfling.",
+    "subraces": [
+      {
+        "name": "Lightfoot Halfling",
+        "name_uk": "Легконогий напіврослик",
+        "features": ["Naturally Stealthy — перевага на перевірки Stealth за відповідних умов"]
+      },
+      {
+        "name": "Strongheart Halfling",
+        "name_uk": "Міцносердий напіврослик",
+        "features": ["Strongheart Resilience — перевага на рятівні кидки проти отрути та опір шкоді отрутою"]
+      }
+    ],
+    "tags": ["halfling", "напіврослик", "lightfoot", "strongheart", "lucky", "brave"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Halfling",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-dwarf",
+    "category": "races",
+    "title": "Дворф (Dwarf)",
+    "content": "Дворфи мають Dwarven Resilience — перевагу на рятівні кидки проти отрути та опір шкоді отрутою. Існують три підраси: Gold Dwarf, Shield Dwarf та Duergar.",
+    "subraces": [
+      {
+        "name": "Gold Dwarf",
+        "name_uk": "Золотий дворф",
+        "features": ["Dwarven Toughness — додаткове максимальне здоров'я"]
+      },
+      {
+        "name": "Shield Dwarf",
+        "name_uk": "Щитовий дворф",
+        "features": ["Особливості підраси та її зовнішнього походження"]
+      },
+      {
+        "name": "Duergar",
+        "name_uk": "Дуергар",
+        "features": ["Superior Darkvision", "Duergar Resilience", "Enlarge", "Invisibility з п'ятого рівня"]
+      }
+    ],
+    "tags": ["dwarf", "дворф", "gold dwarf", "shield dwarf", "duergar", "poison resistance"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Dwarf",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-gnome",
+    "category": "races",
+    "title": "Гном (Gnome)",
+    "content": "Гноми мають Gnome Cunning — перевагу на рятівні кидки Інтелекту, Мудрості та Харизми. Підраси: Rock Gnome, Forest Gnome та Deep Gnome.",
+    "subraces": [
+      {
+        "name": "Rock Gnome",
+        "name_uk": "Скельний гном",
+        "features": ["Artificer's Lore — додаткові знання та бонус до перевірок історії"]
+      },
+      {
+        "name": "Forest Gnome",
+        "name_uk": "Лісовий гном",
+        "features": ["Speak with Animals — можливість спілкуватися з тваринами"]
+      },
+      {
+        "name": "Deep Gnome",
+        "name_uk": "Підземний гном",
+        "features": ["Superior Darkvision", "Перевага на перевірки Stealth"]
+      }
+    ],
+    "tags": ["gnome", "гном", "rock gnome", "forest gnome", "deep gnome", "gnome cunning"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Gnome",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-tiefling",
+    "category": "races",
+    "title": "Тіфлінг (Tiefling)",
+    "content": "Тіфлінги мають темний зір на 12 м та Hellish Resistance — опір шкоді вогнем. Три підраси: Asmodeus Tiefling, Mephistopheles Tiefling та Zariel Tiefling. Кожна має власний набір расових заклять.",
+    "subraces": [
+      {
+        "name": "Asmodeus Tiefling",
+        "name_uk": "Тіфлінг Асмодея",
+        "features": ["Thaumaturgy", "Hellish Rebuke з третього рівня", "Darkness з п'ятого рівня"]
+      },
+      {
+        "name": "Mephistopheles Tiefling",
+        "name_uk": "Тіфлінг Мефістофеля",
+        "features": ["Mage Hand", "Burning Hands з третього рівня", "Flame Blade з п'ятого рівня"]
+      },
+      {
+        "name": "Zariel Tiefling",
+        "name_uk": "Тіфлінг Заріеля",
+        "features": ["Thaumaturgy", "Searing Smite з третього рівня", "Branding Smite з п'ятого рівня"]
+      }
+    ],
+    "tags": ["tiefling", "тіфлінг", "asmodeus", "mephistopheles", "zariel", "fire resistance"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Tiefling",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-githyanki",
+    "category": "races",
+    "title": "Гіт'янки (Githyanki)",
+    "content": "Гіт'янки не мають підрас. Їхня особливість Astral Knowledge дозволяє отримати володіння навичками, пов'язаними з обраною характеристикою. Також мають расову магію: Mage Hand, Enhanced Leap та Misty Step, які відкриваються поступово.",
+    "subraces": [],
+    "tags": ["githyanki", "гітьянки", "astral knowledge", "mage hand", "enhanced leap", "misty step"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Githyanki",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "race-dragonborn",
+    "category": "races",
+    "title": "Дракононароджений (Dragonborn)",
+    "content": "Дракононароджені мають Draconic Ancestry. Вибір драконячого походження визначає тип шкоди, до якої персонаж має опір, та тип дихальної атаки. Десять варіантів походження: Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver та White.",
+    "subraces": [
+      {
+        "name": "Black Dragonborn",
+        "name_uk": "Чорний дракононароджений",
+        "features": ["Опір кислоті", "Дихання кислотою"]
+      },
+      {
+        "name": "Blue Dragonborn",
+        "name_uk": "Синій дракононароджений",
+        "features": ["Опір блискавці", "Дихання блискавкою"]
+      },
+      {
+        "name": "Brass Dragonborn",
+        "name_uk": "Латунний дракононароджений",
+        "features": ["Опір вогню", "Дихання вогнем"]
+      },
+      {
+        "name": "Bronze Dragonborn",
+        "name_uk": "Бронзовий дракононароджений",
+        "features": ["Опір блискавці", "Дихання блискавкою"]
+      },
+      {
+        "name": "Copper Dragonborn",
+        "name_uk": "Мідний дракононароджений",
+        "features": ["Опір кислоті", "Дихання кислотою"]
+      },
+      {
+        "name": "Gold Dragonborn",
+        "name_uk": "Золотий дракононароджений",
+        "features": ["Опір вогню", "Дихання вогнем"]
+      },
+      {
+        "name": "Green Dragonborn",
+        "name_uk": "Зелений дракононароджений",
+        "features": ["Опір отруті", "Дихання отрутою"]
+      },
+      {
+        "name": "Red Dragonborn",
+        "name_uk": "Червоний дракононароджений",
+        "features": ["Опір вогню", "Дихання вогнем"]
+      },
+      {
+        "name": "Silver Dragonborn",
+        "name_uk": "Срібний дракононароджений",
+        "features": ["Опір холоду", "Дихання холодом"]
+      },
+      {
+        "name": "White Dragonborn",
+        "name_uk": "Білий дракононароджений",
+        "features": ["Опір холоду", "Дихання холодом"]
+      }
+    ],
+    "tags": ["dragonborn", "дракононароджений", "draconic ancestry", "дихання", "опір шкоді"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Dragonborn",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-high-elf",
+    "category": "racial-spells",
+    "title": "Расові закляття High Elf та High Half-Elf",
+    "content": "High Elf та High Half-Elf отримують один заговор зі списку заклять Чарівника на вибір під час створення персонажа. Заговор можна використовувати без обмеження кількості застосувань. Якщо заговор потребує кидка атаки або рятівного кидка, використовується Інтелект.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Cantrip of choice from Wizard spell list",
+        "uk": "Заговор зі списку Чарівника на вибір",
+        "recharge": "Без обмежень"
+      }
+    ],
+    "tags": ["high elf", "high half-elf", "заговор", "інтелект"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Elf",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-drow",
+    "category": "racial-spells",
+    "title": "Расова магія Drow та Drow Half-Elf",
+    "content": "Drow та Drow Half-Elf отримують однаковий набір расових заклять. Dancing Lights доступне з першого рівня, Faerie Fire відкривається на третьому рівні, Darkness — на п'ятому. Faerie Fire використовує Харизму для визначення складності рятівного кидка.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Dancing Lights",
+        "uk": "Танцюючі вогники",
+        "recharge": "Без обмежень"
+      },
+      {
+        "level": 3,
+        "spell": "Faerie Fire",
+        "uk": "Чарівний вогонь",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Darkness",
+        "uk": "Темрява",
+        "recharge": "Один раз за довгий відпочинок"
+      }
+    ],
+    "spellcastingAbility": "Charisma",
+    "tags": ["drow", "drow half-elf", "расова магія", "харизма"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Drow",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-asmodeus",
+    "category": "racial-spells",
+    "title": "Расова магія Asmodeus Tiefling",
+    "content": "Тіфлінги Асмодея отримують расову магію Infernal Legacy. Produce Flame доступне з першого рівня, Hellish Rebuke — з третього, Darkness — з п'ятого. Закляття, що залежать від показника заклинання, використовують Харизму.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Produce Flame",
+        "uk": "Створення полум'я",
+        "recharge": "Без обмежень"
+      },
+      {
+        "level": 3,
+        "spell": "Hellish Rebuke",
+        "uk": "Пекельна відплата",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Darkness",
+        "uk": "Темрява",
+        "recharge": "Один раз за довгий відпочинок"
+      }
+    ],
+    "spellcastingAbility": "Charisma",
+    "tags": ["tiefling", "asmodeus", "infernal legacy", "харизма"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Tiefling",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-mephistopheles",
+    "category": "racial-spells",
+    "title": "Расова магія Mephistopheles Tiefling",
+    "content": "Тіфлінги Мефістофеля отримують расову магію Legacy of Cania. Mage Hand доступне з першого рівня, Burning Hands — з третього, Flame Blade — з п'ятого. Закляття, що залежать від показника заклинання, використовують Харизму.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Mage Hand",
+        "uk": "Магічна рука",
+        "recharge": "Без обмежень"
+      },
+      {
+        "level": 3,
+        "spell": "Burning Hands",
+        "uk": "Палаючі долоні",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Flame Blade",
+        "uk": "Вогняний клинок",
+        "recharge": "Один раз за довгий відпочинок"
+      }
+    ],
+    "spellcastingAbility": "Charisma",
+    "tags": ["tiefling", "mephistopheles", "legacy of cania", "харизма"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Tiefling",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-zariel",
+    "category": "racial-spells",
+    "title": "Расова магія Zariel Tiefling",
+    "content": "Тіфлінги Заріеля отримують расову магію Legacy of Avernus. Thaumaturgy доступне з першого рівня, Searing Smite — з третього, Branding Smite — з п'ятого. Закляття, що залежать від показника заклинання, використовують Харизму.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Thaumaturgy",
+        "uk": "Тавматургія",
+        "recharge": "Без обмежень"
+      },
+      {
+        "level": 3,
+        "spell": "Searing Smite",
+        "uk": "Пекучий удар",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Branding Smite",
+        "uk": "Клеймувальний удар",
+        "recharge": "Один раз за довгий відпочинок"
+      }
+    ],
+    "spellcastingAbility": "Charisma",
+    "tags": ["tiefling", "zariel", "legacy of avernus", "харизма"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Tiefling",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-githyanki",
+    "category": "racial-spells",
+    "title": "Псіонічні здібності Githyanki",
+    "content": "Гіт'янки отримують Githyanki Psionics. Mage Hand доступне з першого рівня, Enhance Leap — з третього, Misty Step — з п'ятого. Mage Hand використовує Інтелект як характеристику заклинання. Расові закляття не потребують витрати комірок заклять.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Mage Hand",
+        "uk": "Магічна рука",
+        "recharge": "Без обмежень"
+      },
+      {
+        "level": 3,
+        "spell": "Enhance Leap",
+        "uk": "Посилений стрибок",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Misty Step",
+        "uk": "Туманний крок",
+        "recharge": "Один раз за довгий відпочинок"
+      }
+    ],
+    "spellcastingAbility": "Intelligence",
+    "tags": ["githyanki", "гітьянки", "githyanki psionics", "інтелект"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Githyanki",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-forest-gnome",
+    "category": "racial-spells",
+    "title": "Расове закляття Forest Gnome",
+    "content": "Лісові гноми отримують Speak with Animals — можливість спілкуватися з тваринами. Закляття доступне з першого рівня та може використовуватися необмежену кількість разів.",
+    "spells": [
+      {
+        "level": 1,
+        "spell": "Speak with Animals",
+        "uk": "Розмова з тваринами",
+        "recharge": "Без обмежень"
+      }
+    ],
+    "tags": ["forest gnome", "лісовий гном", "speak with animals"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Gnome",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "racial-spells-duergar",
+    "category": "racial-spells",
+    "title": "Магія Duergar",
+    "content": "Дуергари отримують Duergar Magic. Enlarge відкривається на третьому рівні, Invisibility — на п'ятому. Enlarge відновлюється після довгого відпочинку. Invisibility відновлюється після бою. Ці здібності не витрачають комірки заклять і не потребують концентрації.",
+    "spells": [
+      {
+        "level": 3,
+        "spell": "Enlarge",
+        "uk": "Збільшення",
+        "recharge": "Один раз за довгий відпочинок"
+      },
+      {
+        "level": 5,
+        "spell": "Invisibility",
+        "uk": "Невидимість",
+        "recharge": "Після бою"
+      }
+    ],
+    "tags": ["duergar", "дуергар", "duergar magic"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Dwarf",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-cantrip",
+    "category": "magic-basics",
+    "title": "Заговор (Cantrip)",
+    "content": "Заговор — це просте магічне вміння, яке персонаж може використовувати без витрати комірок заклять. Заговори зазвичай не потребують підготовки. Їхня ефективність може масштабуватися залежно від рівня персонажа.",
+    "tags": ["cantrip", "заговор", "магія", "комірки заклять"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Cantrips",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-level",
+    "category": "magic-basics",
+    "title": "Рівень закляття (Spell Level)",
+    "content": "Закляття мають рівні від першого до шостого. Рівень закляття визначає його магічну складність і вимоги до комірки. Рівень закляття не є рівнем персонажа. Наприклад, персонаж п'ятого рівня може використовувати закляття першого, другого або третього рівня, якщо має відповідні можливості класу.",
+    "tags": ["spell level", "рівень закляття", "магія"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-slots",
+    "category": "magic-basics",
+    "title": "Комірки заклять (Spell Slots)",
+    "content": "Комірки заклять — це обмежений ресурс для використання більшості заклять. Кожне закляття витрачає комірку відповідного або вищого рівня. Комірки зазвичай відновлюються після довгого відпочинку. Заговори не витрачають комірок.",
+    "tags": ["spell slots", "комірки заклять", "відпочинок", "магія"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-upcasting",
+    "category": "magic-basics",
+    "title": "Підвищення рівня закляття (Upcasting)",
+    "content": "Деякі закляття можна застосовувати за допомогою комірки вищого рівня. Це може збільшити шкоду, кількість цілей або тривалість ефекту. Конкретна зміна залежить від закляття. Не кожне закляття має додатковий ефект від підвищення рівня.",
+    "tags": ["upcasting", "підвищення рівня", "комірки заклять"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-concentration",
+    "category": "magic-basics",
+    "title": "Концентрація (Concentration)",
+    "content": "Деякі закляття потребують концентрації для підтримання ефекту. Персонаж може підтримувати лише одне таке закляття одночасно. Застосування іншого закляття з концентрацією припиняє попереднє. Отримання шкоди може спричинити перевірку концентрації. Якщо перевірка провалена, ефект закляття завершується.",
+    "tags": ["concentration", "концентрація", "закляття"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Concentration",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-preparation",
+    "category": "magic-basics",
+    "title": "Підготовка заклять (Prepared Spells)",
+    "content": "Деякі класи повинні заздалегідь обирати закляття, які будуть доступні для використання. Жрець, Друїд і Чарівник можуть змінювати підготовлені закляття поза боєм. Бард, Чародій і Чаклун переважно використовують відомі закляття, а не систему підготовки.",
+    "tags": ["prepared spells", "підготовка заклять", "класи"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spellcasting-ability",
+    "category": "magic-basics",
+    "title": "Характеристика заклинання (Spellcasting Ability)",
+    "content": "Характеристика заклинання визначає ефективність магії персонажа. Вона впливає на складність рятівного кидка проти закляття та точність атак закляттями. Чарівник використовує Інтелект; Жрець, Друїд і Слідопит — Мудрість; Бард, Паладин, Чародій і Чаклун — Харизму. Для деяких здібностей та мультикласових комбінацій можливі винятки.",
+    "tags": ["spellcasting ability", "характеристика заклинання", "інтелект", "мудрість", "харизма"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-save-dc",
+    "category": "magic-basics",
+    "title": "Складність рятівного кидка закляття (Spell Save DC)",
+    "content": "Spell Save DC визначає складність опору закляттю. Базова формула: 8 + бонус майстерності + модифікатор характеристики заклинання + інші бонуси. Ціль повинна пройти відповідний рятівний кидок, щоб уникнути або зменшити ефект закляття.",
+    "tags": ["spell save dc", "складність закляття", "рятівний кидок"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-attack",
+    "category": "magic-basics",
+    "title": "Атака закляттям (Spell Attack)",
+    "content": "Деякі закляття потребують кидка атаки замість рятівного кидка цілі. Бонус атаки закляттям зазвичай дорівнює бонусу майстерності плюс модифікатор характеристики заклинання та інші бонуси. Результат порівнюється з класом броні цілі.",
+    "tags": ["spell attack", "атака закляттям", "бонус атаки"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spells",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "spell-rest",
+    "category": "magic-basics",
+    "title": "Відновлення магічних ресурсів",
+    "content": "Більшість комірок заклять відновлюється після довгого відпочинку. Деякі класи мають особливі механіки відновлення. Наприклад, Чаклун відновлює свої комірки після короткого або довгого відпочинку. Чарівник має здатність Arcane Recovery для відновлення частини комірок поза боєм.",
+    "tags": ["відпочинок", "комірки заклять", "arcane recovery", "warlock"],
+    "source": "BG3 Wiki",
+    "sourceUrl": "https://bg3.wiki/wiki/Spell_Slots",
+    "gameVersion": "Patch 8"
+  },
+  {
+    "id": "damage-bludgeoning",
+    "category": "damage-types",
+    "title": "Bludgeoning — дробильна шкода",
+    "content": "Один із трьох фізичних типів шкоди. Позначає дробильну шкоду.",
+    "tags": ["bludgeoning", "дробильна", "фізична"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-piercing",
+    "category": "damage-types",
+    "title": "Piercing — колюча шкода",
+    "content": "Один із трьох фізичних типів шкоди. Позначає колючу шкоду.",
+    "tags": ["piercing", "колюча", "фізична"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-slashing",
+    "category": "damage-types",
+    "title": "Slashing — рубальна шкода",
+    "content": "Один із трьох фізичних типів шкоди. Позначає рубальну шкоду.",
+    "tags": ["slashing", "рубальна", "фізична"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-acid",
+    "category": "damage-types",
+    "title": "Acid — кислотна шкода",
+    "content": "Тип шкоди, пов'язаний із кислотою.",
+    "tags": ["acid", "кислота", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-cold",
+    "category": "damage-types",
+    "title": "Cold — холодова шкода",
+    "content": "Тип шкоди, пов'язаний із холодом та льодом.",
+    "tags": ["cold", "холод", "лід", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-fire",
+    "category": "damage-types",
+    "title": "Fire — вогняна шкода",
+    "content": "Тип шкоди, пов'язаний із вогнем.",
+    "tags": ["fire", "вогонь", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-force",
+    "category": "damage-types",
+    "title": "Force — силова шкода",
+    "content": "Особливий тип магічної шкоди, який не належить до трьох фізичних типів.",
+    "tags": ["force", "силова", "магічна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-lightning",
+    "category": "damage-types",
+    "title": "Lightning — електрична шкода",
+    "content": "Тип шкоди, пов'язаний із блискавкою та електрикою.",
+    "tags": ["lightning", "блискавка", "електрика", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-necrotic",
+    "category": "damage-types",
+    "title": "Necrotic — некротична шкода",
+    "content": "Тип магічної шкоди, пов'язаний із некротичною енергією.",
+    "tags": ["necrotic", "некротична", "магічна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-poison",
+    "category": "damage-types",
+    "title": "Poison — отруйна шкода",
+    "content": "Тип шкоди, пов'язаний з отрутою.",
+    "tags": ["poison", "отрута", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-psychic",
+    "category": "damage-types",
+    "title": "Psychic — психічна шкода",
+    "content": "Тип магічної шкоди, пов'язаний із впливом на свідомість.",
+    "tags": ["psychic", "психічна", "магічна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-radiant",
+    "category": "damage-types",
+    "title": "Radiant — промениста шкода",
+    "content": "Тип магічної шкоди, пов'язаний зі світлом та променистою енергією.",
+    "tags": ["radiant", "промениста", "магічна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-thunder",
+    "category": "damage-types",
+    "title": "Thunder — громова шкода",
+    "content": "Тип шкоди, пов'язаний із громом та звуковими хвилями.",
+    "tags": ["thunder", "громова", "стихійна"],
+    "sourceUrl": "https://bg3.wiki/wiki/Damage_types"
+  },
+  {
+    "id": "damage-resistance",
+    "category": "damage-mechanics",
+    "title": "Опір (Resistance)",
+    "content": "Опір зменшує отриману шкоду відповідного типу вдвічі. Наприклад, якщо персонаж отримує 20 одиниць вогняної шкоди, а має опір до вогню, він отримає 10 одиниць.",
+    "tags": ["resistance", "опір", "зменшення шкоди"],
+    "sourceUrl": "https://bg3.wiki/wiki/Resistances"
+  },
+  {
+    "id": "damage-vulnerability",
+    "category": "damage-mechanics",
+    "title": "Вразливість (Vulnerability)",
+    "content": "Вразливість збільшує отриману шкоду відповідного типу вдвічі. Наприклад, якщо персонаж отримує 20 одиниць вогняної шкоди, а має вразливість до вогню, він отримає 40 одиниць.",
+    "tags": ["vulnerability", "вразливість", "збільшення шкоди"],
+    "sourceUrl": "https://bg3.wiki/wiki/Resistances"
+  },
+  {
+    "id": "damage-immunity",
+    "category": "damage-mechanics",
+    "title": "Імунітет (Immunity)",
+    "content": "Імунітет повністю усуває шкоду відповідного типу. Якщо істота має імунітет до вогню, вона не отримує вогняної шкоди.",
+    "tags": ["immunity", "імунітет", "нульова шкода"],
+    "sourceUrl": "https://bg3.wiki/wiki/Resistances"
+  },
+  {
+    "id": "damage-resistance-interaction",
+    "category": "damage-mechanics",
+    "title": "Взаємодія опору та вразливості",
+    "content": "Якщо істота одночасно має опір і вразливість до одного типу шкоди, ці ефекти взаємно скасовуються. Імунітет має пріоритет і не скасовується опором або вразливістю. Кілька однакових джерел опору не створюють додаткового зменшення шкоди.",
+    "tags": ["resistance", "vulnerability", "immunity", "взаємодія"],
+    "sourceUrl": "https://bg3.wiki/wiki/Resistances"
+  },
+  {
+    "id": "weapon-dagger",
+    "category": "weapons",
+    "title": "Кинджал (Dagger)",
+    "content": "Легка зброя. Можна екіпірувати в основну або другу руку.",
+    "tags": ["dagger", "кинжал", "light", "finesse", "thrown"],
+    "sourceUrl": "https://bg3.wiki/wiki/Dagger"
+  },
+  {
+    "id": "weapon-shortsword",
+    "category": "weapons",
+    "title": "Короткий меч (Shortsword)",
+    "content": "Легка зброя. Можна екіпірувати в основну або другу руку.",
+    "tags": ["shortsword", "короткий меч", "light", "finesse"],
+    "sourceUrl": "https://bg3.wiki/wiki/Shortsword"
+  },
+  {
+    "id": "weapon-rapier",
+    "category": "weapons",
+    "title": "Рапіра (Rapier)",
+    "content": "Одноручна зброя. Можна використовувати разом зі щитом або залишити другу руку вільною.",
+    "tags": ["rapier", "рапіра", "finesse"],
+    "sourceUrl": "https://bg3.wiki/wiki/Rapier"
+  },
+  {
+    "id": "weapon-longsword",
+    "category": "weapons",
+    "title": "Довгий меч (Longsword)",
+    "content": "Універсальна зброя. Можна використовувати однією рукою зі щитом або двома руками.",
+    "tags": ["longsword", "довгий меч", "versatile"],
+    "sourceUrl": "https://bg3.wiki/wiki/Longsword"
+  },
+  {
+    "id": "weapon-battleaxe",
+    "category": "weapons",
+    "title": "Бойова сокира (Battleaxe)",
+    "content": "Універсальна зброя. Можна використовувати однією рукою зі щитом або двома руками.",
+    "tags": ["battleaxe", "бойова сокира", "versatile"],
+    "sourceUrl": "https://bg3.wiki/wiki/Battleaxe"
+  },
+  {
+    "id": "weapon-warhammer",
+    "category": "weapons",
+    "title": "Бойовий молот (Warhammer)",
+    "content": "Універсальна зброя. Можна використовувати однією рукою зі щитом або двома руками.",
+    "tags": ["warhammer", "бойовий молот", "versatile"],
+    "sourceUrl": "https://bg3.wiki/wiki/Warhammer"
+  },
+  {
+    "id": "weapon-mace",
+    "category": "weapons",
+    "title": "Булава (Mace)",
+    "content": "Одноручна зброя. Можна використовувати разом зі щитом або залишити другу руку вільною.",
+    "tags": ["mace", "булава"],
+    "sourceUrl": "https://bg3.wiki/wiki/Mace"
+  },
+  {
+    "id": "weapon-spear",
+    "category": "weapons",
+    "title": "Спис (Spear)",
+    "content": "Універсальна зброя. Можна використовувати однією рукою зі щитом або двома руками.",
+    "tags": ["spear", "спис", "versatile", "thrown"],
+    "sourceUrl": "https://bg3.wiki/wiki/Spear"
+  },
+  {
+    "id": "weapon-trident",
+    "category": "weapons",
+    "title": "Тризуб (Trident)",
+    "content": "Універсальна зброя. Можна використовувати однією рукою зі щитом або двома руками.",
+    "tags": ["trident", "тризуб", "versatile", "thrown"],
+    "sourceUrl": "https://bg3.wiki/wiki/Trident"
+  },
+  {
+    "id": "weapon-greatsword",
+    "category": "weapons",
+    "title": "Дворучний меч (Greatsword)",
+    "content": "Важка зброя, для екіпірування потребує обох рук.",
+    "tags": ["greatsword", "дворучний меч", "heavy", "two-handed"],
+    "sourceUrl": "https://bg3.wiki/wiki/Greatsword"
+  },
+  {
+    "id": "weapon-greataxe",
+    "category": "weapons",
+    "title": "Велика сокира (Greataxe)",
+    "content": "Важка зброя, для екіпірування потребує обох рук.",
+    "tags": ["greataxe", "велика сокира", "heavy", "two-handed"],
+    "sourceUrl": "https://bg3.wiki/wiki/Greataxe"
+  },
+  {
+    "id": "weapon-halberd",
+    "category": "weapons",
+    "title": "Алебарда (Halberd)",
+    "content": "Важка зброя, для екіпірування потребує обох рук.",
+    "tags": ["halberd", "алебарда", "heavy", "two-handed", "reach"],
+    "sourceUrl": "https://bg3.wiki/wiki/Halberd"
+  },
+  {
+    "id": "weapon-glaive",
+    "category": "weapons",
+    "title": "Глефа (Glaive)",
+    "content": "Важка зброя, для екіпірування потребує обох рук.",
+    "tags": ["glaive", "глефа", "heavy", "two-handed", "reach"],
+    "sourceUrl": "https://bg3.wiki/wiki/Glaive"
+  },
+  {
+    "id": "weapon-quarterstaff",
+    "category": "weapons",
+    "title": "Палиця (Quarterstaff)",
+    "content": "Універсальна зброя. Можна використовувати однією або двома руками.",
+    "tags": ["quarterstaff", "палиця", "versatile"],
+    "sourceUrl": "https://bg3.wiki/wiki/Quarterstaff"
+  },
+  {
+    "id": "weapon-club",
+    "category": "weapons",
+    "title": "Дубина (Club)",
+    "content": "Одноручна зброя. Можна використовувати разом зі щитом або залишити другу руку вільною.",
+    "tags": ["club", "дубина", "light"],
+    "sourceUrl": "https://bg3.wiki/wiki/Club"
+  },
+  {
+    "id": "weapon-greatclub",
+    "category": "weapons",
+    "title": "Велика дубина (Greatclub)",
+    "content": "Дворучна зброя, для екіпірування потребує обох рук.",
+    "tags": ["greatclub", "велика дубина", "two-handed"],
+    "sourceUrl": "https://bg3.wiki/wiki/Greatclub"
+  },
+  {
+    "id": "weapon-shortbow",
+    "category": "weapons",
+    "title": "Короткий лук (Shortbow)",
+    "content": "Далекобійна зброя, для екіпірування потребує обох рук.",
+    "tags": ["shortbow", "короткий лук", "ranged", "two-handed"],
+    "sourceUrl": "https://bg3.wiki/wiki/Shortbow"
+  },
+  {
+    "id": "weapon-longbow",
+    "category": "weapons",
+    "title": "Довгий лук (Longbow)",
+    "content": "Далекобійна зброя, для екіпірування потребує обох рук.",
+    "tags": ["longbow", "довгий лук", "ranged", "two-handed", "heavy"],
+    "sourceUrl": "https://bg3.wiki/wiki/Longbow"
+  },
+  {
+    "id": "weapon-light-crossbow",
+    "category": "weapons",
+    "title": "Легкий арбалет (Light Crossbow)",
+    "content": "Далекобійна зброя, для екіпірування потребує обох рук.",
+    "tags": ["light crossbow", "легкий арбалет", "ranged", "two-handed"],
+    "sourceUrl": "https://bg3.wiki/wiki/Light_Crossbow"
+  },
+  {
+    "id": "weapon-heavy-crossbow",
+    "category": "weapons",
+    "title": "Важкий арбалет (Heavy Crossbow)",
+    "content": "Далекобійна зброя, для екіпірування потребує обох рук.",
+    "tags": ["heavy crossbow", "важкий арбалет", "ranged", "two-handed", "heavy"],
+    "sourceUrl": "https://bg3.wiki/wiki/Heavy_Crossbow"
+  },
+  {
+    "id": "weapon-hand-crossbow",
+    "category": "weapons",
+    "title": "Ручний арбалет (Hand Crossbow)",
+    "content": "Легка далекобійна зброя. Можна екіпірувати в основну або другу руку.",
+    "tags": ["hand crossbow", "ручний арбалет", "ranged", "light"],
+    "sourceUrl": "https://bg3.wiki/wiki/Hand_Crossbow"
+  }
+]
+
