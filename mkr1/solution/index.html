@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product AI — Імпорт товарів</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-icon">AI</span>
+                <div>
+                    <h1>Product AI</h1>
+                    <p>Автоматизація обробки товарів</p>
+                </div>
+            </div>
+
+            <div class="api-indicator">
+                <span class="status-dot" id="apiDot"></span>
+                <span id="apiStatus">Перевірка Ollama...</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main">
+
+        <section class="welcome">
+            <h2>Імпорт товарів</h2>
+            <p>
+                Оберіть CSV-файл із переліком товарів,
+                щоб додати їх до локальної бази даних.
+            </p>
+        </section>
+
+        <section class="card">
+            <div class="section-heading">
+                <div>
+                    <h3>Вибір файлу</h3>
+                    <p>Файли автоматично завантажуються з папки uploads</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="csvSelect">CSV-файл</label>
+
+                <select id="csvSelect">
+                    <option value="">Завантаження списку файлів...</option>
+                </select>
+            </div>
+
+            <div id="fileInfo" class="file-info">
+                Оберіть файл для імпорту.
+            </div>
+
+            <button id="importButton" class="button" disabled>
+                Зчитати дані файлу
+            </button>
+
+            <div id="resultMessage" class="result-message">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Product AI · Локальна система обробки товарів</p>
+    </footer>
+
+</body>
+</html>
+
